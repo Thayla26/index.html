@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog sobre tecnologia, programação e inovação.">
+    <title>Blog de Tecnologia</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog de Tecnologia</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#inscricao">Inscrição</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+
+        <h2>Bem-vindo ao nosso blog!</h2>
+
+        <p>
+            Aqui você encontra conteúdos sobre tecnologia,
+            programação e inovação.
+        </p>
+
+        <section id="artigos">
+
+            <article>
+                <h2>A importância da programação</h2>
+
+                <p>
+                    A programação é uma habilidade importante
+                    para desenvolver soluções tecnológicas.
+                    Com ela, podemos criar sites, aplicativos
+                    e sistemas que facilitam nosso cotidiano.
+                </p>
+
+                <img
+                    src="https://placehold.co/600x300?text=Programacao"
+                    alt="Imagem ilustrativa sobre programação"
+                    width="400"
+                >
+            </article>
+
+            <article>
+                <h2>O futuro da tecnologia</h2>
+
+                <p>
+                    A tecnologia está em constante evolução.
+                    Inteligência artificial, robótica e
+                    automação são exemplos de áreas que
+                    transformam a sociedade.
+                </p>
+
+                <img
+                    src="https://placehold.co/600x300?text=Tecnologia"
+                    alt="Imagem ilustrativa sobre tecnologia"
+                    width="400"
+                >
+            </article>
+
+        </section>
+
+    </main>
+
+    <aside id="inscricao">
+
+        <h2>Inscreva-se no nosso blog</h2>
+
+        <p>
+            Preencha o formulário para receber novidades
+            e conteúdos sobre tecnologia.
+        </p>
+
+        <form action="" method="get">
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    minlength="3"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="idade">Idade:</label>
+                <input
+                    type="number"
+                    id="idade"
+                    name="idade"
+                    min="18"
+                    max="120"
+                    required
+                >
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Preferências</legend>
+
+                <label for="assunto">Assunto de interesse:</label>
+
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="programacao">Programação</option>
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="inteligencia-artificial">
+                        Inteligência Artificial
+                    </option>
+                </select>
+
+                <br><br>
+
+                <input
+                    type="checkbox"
+                    id="termos"
+                    name="termos"
+                    value="aceito"
+                    required
+                >
+
+                <label for="termos">
+                    Aceito os termos e condições.
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Enviar inscrição</button>
+
+        </form>
+
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 - Blog de Tecnologia. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
